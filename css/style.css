@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.widthContainer {
+    margin: auto;
+    width: min(90vw, 1400px);
+}
+
+.fullPage {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.middleLayer {
+    z-index: 2;
+}
+
+#headerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    z-index: 3;
+}
+
+#logo {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#logoBold {
+    font-weight: 900;
+    color: rgb(134, 196, 83);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    line-height: 3rem;
+    margin: 0px 15px;
+}
+
+nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+nav ul li a {
+    background-image: linear-gradient(to right, rgb(134, 196, 83) 50%, black 50%);
+    background-size: 200%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.1s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-position: 0;
+}
+
+nav ul li a::before {
+    content: '';
+    background: rgb(134, 196, 83);
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    border-radius: 5px;
+    width: 0;
+    height: 2px;
+    transition: all 0.1s ease-in-out;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+.button {
+    background-color: rgb(134, 196, 83);
+    background-image: none;
+    background-clip: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: white;
+    border: none !important;
+    border-radius: 30px !important;
+    font-weight: 700;
+    transition: all 0.1s ease-in-out;
+    padding: 10px 20px;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(72, 137, 19);
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 0px 0px 5px white;
+}
+
+nav ul li a#contactButton {
+    background-image: none;
+}
+
+nav ul li a#contactButton:hover::before {
+    width: 0%;
+}
+
+#home {
+    background-image: url(../img/hero_dallE_BW.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#homeText {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#helloThere {
+    font-size: 5rem;
+    font-weight: 800;
+    width: 40vw;
+}
+
+.greenText {
+    color: rgb(134, 196, 83);
+    text-shadow: 0px 0px 10px white;
+}
+
+.heroText {
+    font-size: 2.3rem;
+    width: 35vw;
+    background-color: rgb(255, 255, 255, 50%);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 175px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.socialLinks2 {
+    position: absolute;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.socialButton {
+    height: 50px;
+    width: 50px;
+}
+
+.socialButton img {
+    height: 100%;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.scroll a {
+    text-decoration: none;
+    color: black;
+}
+
+.scroll i {
+    padding: 0 10px;
+    animation: scrollArrows 3s infinite;
+}
+
+@keyframes scrollArrows {
+    0%, 50%, 80%, 100% {
+        position: relative;
+        top: 0;
+    }
+    55%, 65% {
+        position: relative;
+        top: -5px;
+    }
+    60%, 70% {
+        position: relative;
+        top: 5px;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 17vw;
+    color: rgba(2, 51, 4, 0.1);
+    text-align: right;
+    position: absolute;
+    right: 0vw;
+    bottom: -7.5vw;
+    z-index: 1;
+}
+
+#projects {
+    background-color: rgb(103, 164, 51);
+}
+
+#projectsCards {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pCard {
+    display: inline-block;
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255, 50%);
+    border-radius: 30px;
+    padding: 20px 15px 15px 15px;
+    z-index: 2;
+}
+
+.pCardContent {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-color: rgb(255, 255, 255, 50%) rgb(0, 0, 0, 0%);
+    scrollbar-width: thin;
+}
+
+.pCardContent::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pCardContent::-webkit-scrollbar-track {
+    opacity: 0;
+}
+
+.pCardContent::-webkit-scrollbar-track-piece {
+    opacity: 0;
+}
+
+.pCardContent::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255, 50%);
+    border-radius: 10px;
+}
+
+.pCardContent img {
+    width: min(280px, 80%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.pCardContent em {
+    height: 30px;
+    line-height: 30px;
+    font-weight: 200;
+    border-top: 1px dotted darkolivegreen;
+    border-bottom: 1px dotted darkolivegreen;
+}
+
+.cardTitle {
+    font-size: 150%;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cardDescription {
+    border-top: 1px dotted darkolivegreen;
+    flex-grow: 2;
+}
+
+.cardDescription p {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.loadMore {
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#about {
+    background-color: rgb(159, 197, 125);
+}
+
+#aboutFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#aboutFlexLeft {
+    width: 50%;
+    z-index: 2;
+}
+
+#firstHead {
+    margin-top: 200px;
+}
+
+.aboutBox {
+    background-color: rgb(255, 255, 255, 40%);
+    border-radius: 30px;
+    padding: 20px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.aboutHeadline {
+    font-weight: 200;
+}
+
+.aboutTitle {
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.aboutInfo {
+    font-size: 125%;
+    font-weight: 300;
+}
+
+#skillsFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.skillButton {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding-left: 10px;
+    margin: 5px 5px 5px 0;
+    font-weight: 600;
+}
+
+.skillButton img {
+    display: inline-block;
+    height: 18%;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+@-moz-document url-prefix() {
+    .skillButton {
+        grid-template-columns: 50px 150px;
+    }
+
+    .skillButton img {
+        height: 75%;
+    }
+}
+
+.HTML5 {
+    background-color: rgb(251, 100, 62);
+    border-color: rgb(210, 71, 35);
+}
+
+.CSS3 {
+    background-color: rgb(98, 183, 252);
+    border-color: rgb(33, 150, 243);
+}
+
+.SQL {
+    background-color: rgb(27, 153, 250);
+    border-color: rgb(0, 121, 214);
+}
+
+.JavaSE {
+    background-image: linear-gradient(to top, rgb(155, 188, 255)30%, rgb(255, 156, 132) 70%);
+    border-color: rgb(115, 161, 251);
+}
+
+.JavaEE {
+    background-color: rgb(255, 183, 82);
+    border-color: rgb(249, 154, 27);
+}
+
+.JavaScript {
+    background-color: rgb(255, 228, 78);
+    border-color: rgb(248, 215, 27);
+}
+
+.React {
+    background-color: rgb(136, 229, 255);
+    border-color: rgb(97, 218, 251);
+}
+
+.GIT {
+    background-color: rgb(255, 124, 101);
+    border-color: rgb(240, 80, 51);
+}
+
+.UML {
+    background-color: rgb(246, 112, 150);
+    border-color: rgb(150, 36, 68);
+}
+
+.more {
+    font-weight: 300;
+}
+
+#aboutFlexRight {
+    width: 50%;
+    z-index: 2;
+}
+
+#aboutFlexRight img {
+    display: block;
+    height: 70vh;
+    margin: 200px 0 0 auto;
+    box-shadow: 0px 0px 15px rgba(85, 107, 47, 0.5);
+    border-radius: 5px;
+}
+
+#download {
+    position: relative;
+    top: -10px;
+    right: -1px;
+    box-shadow: 0px 0px 10px rgb(44, 58, 18);
+    border-radius: 30px 0 30px 30px !important;
+}
+
+#centerDownload {
+    text-align: right;
+}
+
+#contact {
+    background-color: rgb(236, 219, 175);
+}
+
+#contact iframe {
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#contactFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#contactFlexLeft {
+    display: inline;
+    flex-grow: 1;
+}
+
+.contactHero {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+#formGrid {
+    display: grid;
+    width: 25vw;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    gap: 10px 20px;
+}
+
+#formGrid input, textarea {
+    border: 2px solid rgb(96, 169, 37);
+    border-radius: 5px;
+}
+
+.formSpan {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.submitButton {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 1rem;
+    border: none;
+}
+
+#formCondition {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#contactFlexRight {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#contactFlexRight a {
+    text-decoration: none;
+    color: black;
+}
+
+#contactName {
+    margin: unset;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
