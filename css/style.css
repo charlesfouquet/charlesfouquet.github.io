@@ -4,6 +4,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .widthContainer {
     margin: auto;
     width: min(90vw, 1400px);
