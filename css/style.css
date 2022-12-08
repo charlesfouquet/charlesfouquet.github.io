@@ -36,6 +36,10 @@
     font-size: 2rem;
 }
 
+#logoSmall {
+    display: none;
+}
+
 #logoBold {
     font-weight: 900;
     color: rgb(134, 196, 83);
@@ -547,4 +551,110 @@ h2 {
     margin: unset;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+@media (max-width: 480px) {
+    .fullPage {
+        height: fit-content;
+    }
+
+    .fullPage1 {
+        height: 100vh;
+    }
+
+    header {
+        background-color: white;
+        border-radius: 30px;
+        padding: 13px 10px 10px 10px;
+    }
+    
+    #logo {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav::before {
+        margin-right: 10px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: xx-large;
+        color: rgb(134, 196, 83);
+        content: "\f0c9"
+    }
+
+    #home {
+        background-image: url(../img/hero_dallE_BW_portrait.png);
+        background-position: center;
+    }
+
+    #homeText {
+        position: absolute;
+        top: 85%;
+        transform: translate(0, -85%);
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    #helloThere {
+        font-size: 2rem;
+        font-weight: 800;
+        width: unset;
+    }
+
+    .heroText {
+        font-size: 1rem;
+        width: unset;
+        padding: 15px;
+        font-weight: 500;
+    }
+
+    .socialLinks {
+        width: 50vw;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .socialButton {
+        height: 40px;
+        width: 40px;
+    }
+
+    #projectsCards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 350px) {
+    #logo {
+        font-size: 1.2rem;
+    }
+
+    nav::before {
+        font-size: x-large;
+    }
+
+    .scroll {
+        width: 90vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 280px) {
+    #logo {
+        display: none;
+    }
+
+    #logoSmall {
+        display: inline-block;
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
 }
