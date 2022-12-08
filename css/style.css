@@ -593,8 +593,8 @@ h2 {
 
     #homeText {
         position: absolute;
-        top: 85%;
-        transform: translate(0, -85%);
+        top: 80%;
+        transform: translate(0, -80%);
         width: 90vw;
         margin: auto;
         text-align: center;
