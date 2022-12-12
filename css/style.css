@@ -557,23 +557,97 @@ h2 {
     font-weight: 800;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     .fullPage {
         height: fit-content;
     }
-
+    
     .fullPage1 {
         height: 100vh;
     }
+    
+    #home {
+        background-image: url(../img/hero_dallE_BW_portrait.png);
+        background-position: center;
+    }
+    
+    #homeText {
+        position: absolute;
+        top: 80%;
+        transform: translate(0, -80%);
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #helloThere {
+        width: unset;
+    }
+    
+    .heroText {
+        font-size: 2rem;
+        width: unset;
+        padding: 15px;
+        font-weight: 500;
+    }
+    
+    .socialLinks {
+        width: 30vw;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
 
+    .scroll {
+        width: 90vw;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .pCard {
+        width: 40%;
+        height: unset;
+    }
+
+    #aboutFlex {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #aboutFlexLeft {
+        width: 100%;
+    }
+
+    #aboutFlexRight {
+        width: 100%;
+        align-content: center;
+    }
+
+    #aboutFlexRight img {
+        height: 60vh;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #centerDownload {
+        text-align: center;
+    }
+
+    #download {
+        top: -60px;
+        border-radius: 30px 30px 30px 30px !important;
+    }
+}
+
+@media (max-width: 770px) {
     header {
         background-color: white;
         border-radius: 30px;
         padding: 13px 10px 10px 10px;
     }
-    
+
     #logo {
-        font-size: 1.5rem;
         margin-left: 10px;
     }
 
@@ -585,43 +659,39 @@ h2 {
         margin-right: 10px;
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        font-size: xx-large;
+        font-size: 2.5rem;
         color: rgb(134, 196, 83);
         content: "\f0c9"
     }
 
-    #home {
-        background-image: url(../img/hero_dallE_BW_portrait.png);
-        background-position: center;
+    #helloThere {
+        font-size: 3rem;
     }
 
-    #homeText {
-        position: absolute;
-        top: 80%;
-        transform: translate(0, -80%);
-        width: 90vw;
-        margin: auto;
-        text-align: center;
+    .heroText {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    nav::before {
+        font-size: xx-large;
     }
 
     #helloThere {
         font-size: 3rem;
-        font-weight: 800;
-        width: unset;
     }
 
     .heroText {
         font-size: 1rem;
-        width: unset;
-        padding: 15px;
-        font-weight: 500;
     }
 
     .socialLinks {
         width: 50vw;
-        margin: auto;
-        justify-content: space-between;
-        margin-top: 20px;
     }
     
     .socialButton {
@@ -629,10 +699,33 @@ h2 {
         width: 40px;
     }
 
+    .scroll {
+        font-size: 100%;
+    }
+
     #projectsCards {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-content: center;
+        margin-top: 150px;
+    }
+
+    .pCard {
+        width: 80%;
+    }
+
+    .cardDescription p {
+        display: none;
+        /* position: unset;
+        top: unset;
+        transform: unset;
+        font-size: 1rem; */
+    }
+    
+    h1 {
+        font-size: 2rem;
+        top: 90px;
     }
 }
 
@@ -645,9 +738,12 @@ h2 {
         font-size: x-large;
     }
 
-    .scroll {
-        width: 90vw;
-        text-align: center;
+    #helloThere {
+        font-size: 2rem;
+    }
+
+    h1 {
+        top: 80px;
     }
 }
 
@@ -660,5 +756,22 @@ h2 {
         display: inline-block;
         font-size: 1.2rem;
         margin-left: 10px;
+    }
+
+    #helloThere {
+        font-size: 1.5rem;
+    }
+
+    .heroText {
+        font-size: 0.8rem;
+    }
+    
+    .socialButton {
+        height: 30px;
+        width: 30px;
+    }
+
+    .scroll {
+        font-size: 90%;
     }
 }
