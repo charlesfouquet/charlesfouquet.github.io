@@ -33,6 +33,10 @@ html {
     transform: translate(-50%, 0);
     margin-top: 20px;
     z-index: 3;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: none;
+    transition: 0.3s all;
 }
 
 #logo {
@@ -641,12 +645,6 @@ h2 {
 }
 
 @media (max-width: 770px) {
-    header {
-        background-color: white;
-        border-radius: 30px;
-        padding: 13px 10px 10px 10px;
-    }
-
     #logo {
         margin-left: 10px;
     }
