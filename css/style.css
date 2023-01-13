@@ -42,6 +42,8 @@ html {
 #logo {
     display: inline-block;
     font-size: 2rem;
+    position: relative;
+    top: 3px;
 }
 
 #logoSmall {
