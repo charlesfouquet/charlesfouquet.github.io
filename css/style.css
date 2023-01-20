@@ -523,6 +523,11 @@ h2 {
 #formGrid input, textarea {
     border: 2px solid rgb(96, 169, 37);
     border-radius: 5px;
+    outline: none;
+}
+
+#formGrid textarea {
+    width: 99%;
 }
 
 .formSpan {
@@ -559,6 +564,67 @@ h2 {
     margin: unset;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+#messageLengthCounter {
+    position: relative;
+    top: -5px;
+    font-size: 80%;
+    text-align: right;
+}
+
+.incorrectInput {
+    border: 2px solid red !important;
+}
+
+.incorrectInput::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f057";
+}
+
+.incorrectText {
+    color: red;
+}
+
+.incorrectCommentary {
+    font-size: 12px;
+    color: red;
+}
+
+.incorrectCommentary::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f057   ";
+}
+
+.correctInput::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f058";
+}
+
+.correctCommentary {
+    font-size: 12px;
+    color: rgb(0, 177, 0);
+}
+
+.correctCommentary::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f058   ";
+}
+
+.alertsRight {
+    text-align: right;
+}
+
+.emptyAlert, .emptyAlertForMessage {
+    display: none;
+}
+
+.emptyAlertActive {
+    display: inline-block;
 }
 
 @media (max-width: 1000px) {
