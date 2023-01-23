@@ -13,10 +13,14 @@ html {
     width: min(90vw, 1400px);
 }
 
-.fullPage {
+.page {
     position: relative;
-    height: 100vh;
     overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.fullPage {
+    height: 100vh;
 }
 
 .middleLayer {
@@ -39,9 +43,16 @@ html {
     transition: 0.3s all;
 }
 
-#logo {
+#logo, #logoSmall {
     display: inline-block;
     font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#logo a, #logoSmall a {
+    text-decoration: none;
+    color: black
 }
 
 #logoSmall {
@@ -325,7 +336,7 @@ h2 {
     width: 100px;
     text-align: center;
     margin-top: 30px;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -627,15 +638,56 @@ h2 {
     display: inline-block;
 }
 
-@media (max-width: 1000px) {
-    .fullPage {
-        height: fit-content;
+#copyright {
+    margin-top: 5px;
+    font-size: 70%;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (max-width: 1550px) {
+    #helloThere {
+        font-size: 3.5rem;
     }
     
-    .fullPage1 {
-        height: 100vh;
+    .heroText {
+        font-size: 1.5rem;
+        padding: 15px;
+        font-weight: 500;
     }
     
+    #skillsFlex {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1350px) {
+    #aboutFlexLeft {
+        width: 60%;
+    }
+
+    #aboutFlexRight {
+        width: 40%;
+    }
+
+    #aboutFlexRight img {
+        height: 50vh;
+        margin-top: 300px;
+    }
+    
+    #contactFlex {
+        flex-direction: column;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contactFlexRight {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
     #home {
         background-image: url(../img/hero_dallE_BW_portrait.png);
         background-position: center;
@@ -668,6 +720,12 @@ h2 {
         margin-top: 20px;
     }
 
+    .socialLinks2 {
+        position: absolute;
+        margin-top: 5px;
+        width: 200px;
+    }
+
     .scroll {
         width: 90vw;
         text-align: center;
@@ -677,6 +735,7 @@ h2 {
     .pCard {
         width: 40%;
         height: unset;
+        margin: 10px 0;
     }
 
     #aboutFlex {
@@ -694,7 +753,8 @@ h2 {
     }
 
     #aboutFlexRight img {
-        height: 60vh;
+        height: unset;
+        width: 60vw;
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -731,13 +791,47 @@ h2 {
     #helloThere {
         font-size: 3rem;
     }
-
+    
     .heroText {
         font-size: 1.5rem;
     }
+
+    h2 {
+        float: right;
+        font-size: 30vh;
+        text-align: unset;
+        position: absolute;
+        right: -20vw;
+        bottom: 100vh;
+        rotate: -90deg;
+        transform-origin: 100% 100%;
+        z-index: 1;
+    }
+    
+    .skillButton {
+        grid-template-columns: 1fr 3fr;
+        width: 150px;
+        font-size: 80%;
+    }
+
+    #contactFlexLeft {
+        width: 80vw;
+    }
+
+    #formGrid {
+        width: unset;
+    }
+
+    #contact iframe {
+        width: 80vw;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    #headerFlex {
+        width: 85vw;
+    }
+
     #logo {
         font-size: 1.5rem;
     }
@@ -756,6 +850,12 @@ h2 {
 
     .socialLinks {
         width: 50vw;
+    }
+
+    .socialLinks2 {
+        position: relative;
+        margin-top: 20px;
+        width: 150px;
     }
     
     .socialButton {
@@ -791,9 +891,41 @@ h2 {
         font-size: 2rem;
         top: 90px;
     }
+
+    #formGrid {
+        grid-template-columns: 1fr 2fr;
+        gap: 10px 20px;
+    }
+
+    .formSpan {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .submitButton {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        font-size: 1rem;
+        border: none;
+    }
+    
+    #formCondition {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    #contactFlexRight {
+        text-align: center;
+    }
 }
 
 @media (max-width: 350px) {
+    #headerFlex {
+        width: 80vw;
+    }
+
     #logo {
         font-size: 1.2rem;
     }
@@ -812,6 +944,10 @@ h2 {
 }
 
 @media (max-width: 280px) {
+    #headerFlex {
+        width: 75vw;
+    }
+
     #logo {
         display: none;
     }
