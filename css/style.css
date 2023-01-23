@@ -768,6 +768,12 @@ h2 {
         top: -60px;
         border-radius: 30px 30px 30px 30px !important;
     }
+
+    .contactHero {
+        font-size: 1.5rem;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 770px) {
@@ -890,6 +896,12 @@ h2 {
     h1 {
         font-size: 2rem;
         top: 90px;
+    }
+
+    .contactHero {
+        font-size: 1rem;
+        margin-top: 150px;
+        margin-bottom: 50px;
     }
 
     #formGrid {
