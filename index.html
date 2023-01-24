@@ -206,7 +206,7 @@
             <div class="widthContainer">
                 <div id="contactFlex">
                     <div id="contactFlexLeft" class="middleLayer">
-                        <form id="formGrid" onsubmit="emptyCheck(event);">
+                        <form id="formGrid" action="post">
                             <label for="name" class="attributeFRName">Nom*</label>
                             <input type="text" id="name" class="fieldBox" placeholder="Nom">
                             <label for="firstName" class="attributeFRName">Prénom*</label>
@@ -224,7 +224,7 @@
                                 <textarea id="message" rows="10" cols="5" maxlength="500"></textarea>
                                 <div id="messageLengthCounter">50 caractères minimum/500 caractères maximum (<span id="messageLength">0</span>/500)</div>
                             </div>
-                            <input type="submit" class="submitButton button">
+                            <button type="submit" class="submitButton button">Envoyer</button>
                             <div></div>
                             <div class="formSpan alertsRight">
                                 <div class="emptyAlert"><span id="emptyAlert1">Le champ </span><em><span id="emptyAlert2">?</span></em><span id="emptyAlert3"> est vide</span></div>

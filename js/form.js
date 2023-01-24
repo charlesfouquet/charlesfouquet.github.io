@@ -4,6 +4,7 @@
 var inputsList = $(".fieldBox");
 inputsList.each(function(){
     $(this).on("keyup", function () {
+        $(".submitButton").addClass("notOK")
         formCheck(event);
     })
 });
@@ -47,6 +48,14 @@ function formCheck(event) {
 }
 
 // >>>>>>>>> VERIFICATION ONSUBMIT DE PRESENCE DE CHAMPS REQUIS VIDES
+$(".submitButton").each(function(){
+    $(this).on("click", function () {
+        if (($(this)).hasClass("notOK")) {
+            emptyCheck(event);
+        }
+    })
+});
+
 function emptyCheck(event) {
     event.preventDefault();
 
