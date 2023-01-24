@@ -789,8 +789,45 @@ h2 {
         margin-left: 10px;
     }
 
-    nav ul li {
+    nav ul {
         display: none;
+        opacity: 0;
+    }
+
+    .navClicked {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 70px;
+        width: min-content;
+        text-align: right;
+        margin-right: 15px;
+        border-radius: 15px;
+        opacity: 1;
+        animation: ease-in-out .3s openDropdown;
+    }
+        
+    @keyframes openDropdown {
+        0% {
+            top: 60px;
+            opacity: 0;
+        }
+        100% {
+            top: 70px;
+            opacity: 1;
+        }
+    }
+
+    nav ul li a#contactButton {
+        background-image: linear-gradient(to right, rgb(134, 196, 83) 50%, black 50%);
+    }
+    
+    nav ul li a#contactButton:hover::before {
+        width: 100%;
+    }
+
+    nav ul li:last-of-type {
+        margin-right: inherit;
     }
 
     .burgerMenu {
@@ -981,6 +1018,21 @@ h2 {
 
     #logo {
         font-size: 1.5rem;
+    }
+
+    .navClicked {
+        top: 60px;
+    }
+
+    @keyframes openDropdown {
+        0% {
+            top: 50px;
+            opacity: 0;
+        }
+        100% {
+            top: 60px;
+            opacity: 1;
+        }
     }
 
     .burgerSpan {
