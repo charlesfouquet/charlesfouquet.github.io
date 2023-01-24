@@ -16,7 +16,7 @@ html {
 .page {
     position: relative;
     overflow: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .fullPage {
@@ -413,7 +413,7 @@ h2 {
 
 @-moz-document url-prefix() {
     .skillButton {
-        grid-template-columns: 50px 150px;
+        display: flex;
     }
 
     .skillButton img {
@@ -503,6 +503,7 @@ h2 {
     display: inline-block;
     border-radius: 20px;
     margin-top: 30px;
+    margin-bottom: 75px;
 }
 
 #contactFlex {
@@ -583,6 +584,12 @@ h2 {
     top: -5px;
     font-size: 80%;
     text-align: right;
+}
+
+@-moz-document url-prefix() {
+    #messageLengthCounter {
+        top: unset;
+    }
 }
 
 .incorrectInput {
@@ -945,9 +952,13 @@ h2 {
     }
     
     .skillButton {
-        grid-template-columns: 1fr 3fr;
+        display: flex;
         width: 150px;
         font-size: 80%;
+    }
+
+    .skillButton img {
+        height: 75%;
     }
 
     #contactFlexLeft {
