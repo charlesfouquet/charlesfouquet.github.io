@@ -786,13 +786,142 @@ h2 {
         display: none;
     }
 
-    nav::before {
-        margin-right: 10px;
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        font-size: 2.5rem;
-        color: rgb(134, 196, 83);
-        content: "\f0c9"
+    .burgerMenu {
+        border-radius: 2px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-right: 50px;
+        text-align: right;
+    }
+
+    .burgerBtn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .burgerSpan {
+        display: block;
+        width: 100%;
+        border-radius: 3px;
+        height: 4px;
+        background: #86C453;
+        transition: all .3s;
+        position: relative;
+    }
+
+    .burgerSpan + .burgerSpan {
+        margin-top: 8px;
+    }
+      
+    .active .burgerSpan:nth-child(1) {
+    animation: ease .3s top forwards;
+    }
+    
+    .not-active .burgerSpan:nth-child(1) {
+    animation: ease .3s top-2 forwards;
+    }
+    
+    .active .burgerSpan:nth-child(2) {
+    animation: ease .3s scaled forwards;
+    }
+    
+    .not-active .burgerSpan:nth-child(2) {
+    animation: ease .3s scaled-2 forwards;
+    }
+    
+    .active .burgerSpan:nth-child(3) {
+    animation: ease .3s bottom forwards;
+    }
+    
+    .not-active .burgerSpan:nth-child(3) {
+    animation: ease .3s bottom-2 forwards;
+    }
+    
+    @keyframes top {
+        0% {
+            top: 0;
+            transform: rotate(0);
+        }
+        50% {
+            top: 12px;
+            transform: rotate(0);
+        }
+        100% {
+            top: 12px;
+            transform: rotate(45deg);
+        }
+    }
+    
+    @keyframes top-2 {
+        0% {
+            top: 12px;
+            transform: rotate(45deg);
+        }
+        50% {
+            top: 12px;
+            transform: rotate(0deg);
+        }
+        100% {
+            top: 0;
+            transform: rotate(0deg);
+        }
+    }
+    
+    @keyframes bottom {
+        0% {
+            bottom: 0;
+            transform: rotate(0);
+        }
+        50% {
+            bottom: 12px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 12px;
+            transform: rotate(135deg);
+        }
+    }
+    
+    @keyframes bottom-2 {
+        0% {
+            bottom: 12px;
+            transform: rotate(135deg);
+        }
+        50% {
+            bottom: 12px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 0;
+            transform: rotate(0);
+        }
+    }
+    
+    @keyframes scaled {
+        50% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+    
+    @keyframes scaled-2 {
+        0% {
+            transform: scale(0);
+        }
+        50% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
     }
 
     #helloThere {
@@ -843,8 +972,72 @@ h2 {
         font-size: 1.5rem;
     }
 
-    nav::before {
-        font-size: xx-large;
+    .burgerSpan {
+        height: 3px;
+    }
+
+    .burgerSpan + .burgerSpan {
+        margin-top: 6px;
+    }
+
+    @keyframes top {
+        0% {
+            top: 0;
+            transform: rotate(0);
+        }
+        50% {
+            top: 9px;
+            transform: rotate(0);
+        }
+        100% {
+            top: 9px;
+            transform: rotate(45deg);
+        }
+    }
+    
+    @keyframes top-2 {
+        0% {
+            top: 9px;
+            transform: rotate(45deg);
+        }
+        50% {
+            top: 9px;
+            transform: rotate(0deg);
+        }
+        100% {
+            top: 0;
+            transform: rotate(0deg);
+        }
+    }
+    
+    @keyframes bottom {
+        0% {
+            bottom: 0;
+            transform: rotate(0);
+        }
+        50% {
+            bottom: 9px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 9px;
+            transform: rotate(135deg);
+        }
+    }
+    
+    @keyframes bottom-2 {
+        0% {
+            bottom: 9px;
+            transform: rotate(135deg);
+        }
+        50% {
+            bottom: 9px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 0;
+            transform: rotate(0);
+        }
     }
 
     #helloThere {
@@ -943,8 +1136,72 @@ h2 {
         font-size: 1.2rem;
     }
 
-    nav::before {
-        font-size: x-large;
+    .burgerSpan {
+        height: 2px;
+    }
+
+    .burgerSpan + .burgerSpan {
+        margin-top: 4px;
+    }
+
+    @keyframes top {
+        0% {
+            top: 0;
+            transform: rotate(0);
+        }
+        50% {
+            top: 6px;
+            transform: rotate(0);
+        }
+        100% {
+            top: 6px;
+            transform: rotate(45deg);
+        }
+    }
+    
+    @keyframes top-2 {
+        0% {
+            top: 6px;
+            transform: rotate(45deg);
+        }
+        50% {
+            top: 6px;
+            transform: rotate(0deg);
+        }
+        100% {
+            top: 0;
+            transform: rotate(0deg);
+        }
+    }
+    
+    @keyframes bottom {
+        0% {
+            bottom: 0;
+            transform: rotate(0);
+        }
+        50% {
+            bottom: 6px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 6px;
+            transform: rotate(135deg);
+        }
+    }
+    
+    @keyframes bottom-2 {
+        0% {
+            bottom: 6px;
+            transform: rotate(135deg);
+        }
+        50% {
+            bottom: 6px;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 0;
+            transform: rotate(0);
+        }
     }
 
     #helloThere {
