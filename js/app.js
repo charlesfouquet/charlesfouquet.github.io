@@ -18,8 +18,10 @@ $(".burgerBtn").on("click", function(e) {
 $(window).scroll(function () {
   if ($(this).scrollTop() > 150) {
     $("header").css("background-color","white");
-    $("nav ul").css("background-color","white");
-    $("nav ul").css("box-shadow","0px 0px 5px rgb(91, 110, 91)");
+    if ($(this).width() < 770) {
+      $("nav ul").css("background-color","white");
+      $("nav ul").css("box-shadow","0px 0px 5px rgb(91, 110, 91)");
+    }
   } 
   if ($(this).scrollTop() < 150) {
     $("header").css("background-color","unset");
@@ -35,6 +37,16 @@ $(window).on("load", function () {
   if ($(this).width() < 770) {
     $("#contactLink").removeClass("button");
   } 
+  if ($(this).height() < 500) {
+    $("#helloThere").addClass("shortVP");
+    $(".heroText").addClass("shortVP");
+    $(".scroll").addClass("shortVP");
+  }
+  if ($(this).height() > 500) {
+    $("#helloThere").removeClass("shortVP");
+    $(".heroText").removeClass("shortVP");
+    $(".scroll").removeClass("shortVP");
+  }
 })
 
 $(window).on("resize", function () {
@@ -43,5 +55,15 @@ $(window).on("resize", function () {
   } 
   if ($(this).width() < 770) {
     $("#contactLink").removeClass("button");
-  } 
+  }
+  if ($(this).height() < 500) {
+    $("#helloThere").addClass("shortVP");
+    $(".heroText").addClass("shortVP");
+    $(".scroll").addClass("shortVP");
+  }
+  if ($(this).height() > 500) {
+    $("#helloThere").removeClass("shortVP");
+    $(".heroText").removeClass("shortVP");
+    $(".scroll").removeClass("shortVP");
+  }
 })
