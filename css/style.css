@@ -77,6 +77,12 @@ nav ul li {
 
 nav ul li:last-of-type {
     margin-right: 0;
+    padding-right: 20px;
+}
+
+nav ul li:last-of-type img {
+    position: relative;
+    top: 2px;
 }
 
 nav ul li a {

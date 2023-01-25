@@ -1,5 +1,5 @@
 {
-    "produits":[
+    "website":[
         {
             "fr": "Accueil",
             "en": "Home"
@@ -21,28 +21,28 @@
             "en": "<img src=\"https://flagcdn.com/20x15/fr.png\" srcset=\"https://flagcdn.com/40x30/fr.png 2x, https://flagcdn.com/60x45/fr.png 3x\" width=\"20\" height=\"15\" alt=\"France\">"
         },
         {
-            "fr": "\"Hello there!\"",
-            "en": "\"Hello there!\""
+            "fr": "\"<em>Hello there!</em>\"",
+            "en": "\"<em>Hello there!</em>\""
         },
         {
             "fr": "Je suis <span class=\"greenText\">Charles</span>, Concepteur Développeur d'Applications <span class=\"greenText\">(CDA)</span> depuis 2023, travaillant en <span class=\"greenText\">Région Parisienne</span> ou à distance. <br> N’hésitez pas à me contacter pour parler de vos projets !",
-            "en": "I am <span class=\"greenText\">Charles</span>, Software Engineer <span class=\"greenText\">(Design & Development)</span> graduating in 2023, based in the <span class=\"greenText\">Paris Region</span> and available for remote work. <br> Let's chat and imagine your projects together below!"
+            "en": "I am <span class=\"greenText\">Charles</span>, Software Engineer graduating in 2023, based in the <span class=\"greenText\">Paris Region</span> and available for remote work. <br> Let's chat and imagine your projects together below!"
         },
         {
             "fr": "Faites défiler",
             "en": "Scroll down"
         },
         {
-            "fr": "Projets",
-            "en": "Projects"
+            "fr": "PROJETS",
+            "en": "PROJECTS"
         },
         {
             "fr": "Voir plus",
             "en": "See more"
         },
         {
-            "fr": "À&nbsp;propos",
-            "en": "About"
+            "fr": "À&nbsp;PROPOS",
+            "en": "ABOUT"
         },
         {
             "fr": "DERNIÈRE EXPERIENCE PROFESSIONNELLE",
@@ -93,8 +93,8 @@
             "en": "Download my resume"
         },
         {
-            "fr": "Contact",
-            "en": "Contact"
+            "fr": "CONTACT",
+            "en": "CONTACT"
         },
         {
             "fr": "Une question ? Un projet à développer ? Une opportunité professionnelle à proposer ? Utilisez le formulaire ci-dessous pour que l'on démarre une conversation ensemble, et je vous répondrai sous peu !",
@@ -129,8 +129,8 @@
             "en": "Message*"
         },
         {
-            "fr": "50 caractères minimum/500 caractères maximum (",
-            "en": "50 characters minimum/500 characters maximum ("
+            "fr": "50 caractères minimum / 500 caractères maximum (",
+            "en": "min. 50 characters / max. 500 characters ("
         },
         {
             "fr": "Envoyer",

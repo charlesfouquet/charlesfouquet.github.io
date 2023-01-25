@@ -78,3 +78,28 @@ $(window).on("resize", function () {
   cssHeroY();
   cssHeroN();
 })
+
+// >>>>>>>>> TRADUCTION DU SITE
+$("#translator").on("click", function() {
+  if ($("#translator").children("img").attr("alt") == "United Kingdom") {
+    var newLocale = "en";
+    $("#centerDownload").children("a").attr("href", "files/RESUME_FOUQUET.pdf");
+  } else if ($("#translator").children("img").attr("alt") == "France") {
+    var newLocale = "fr";
+    $("#centerDownload").children("a").attr("href", "files/CV_FOUQUET.pdf");
+  }
+  $.ajax({
+    url:"ajax/website.json",
+    dataType:"json",
+
+    
+    success:function(data){
+      for (let index = 0; index < data.website.length; index++) {
+        $(".txt"+(index+1)).html((data.website[index])[newLocale]);
+      }
+    },
+    error:function(xhr, status){
+      alert(xhr.status);
+    }
+  });
+});
