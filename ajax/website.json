@@ -1,0 +1,148 @@
+{
+    "produits":[
+        {
+            "fr": "Accueil",
+            "en": "Home"
+        },
+        {
+            "fr": "Projets",
+            "en": "Projects"
+        },
+        {
+            "fr": "À&nbsp;propos",
+            "en": "About"
+        },
+        {
+            "fr": "Contact",
+            "en": "Contact"
+        },
+        {
+            "fr": "<img src=\"https://flagcdn.com/20x15/gb.png\" srcset=\"https://flagcdn.com/40x30/gb.png 2x, https://flagcdn.com/60x45/gb.png 3x\" width=\"20\" height=\"15\" alt=\"United Kingdom\">",
+            "en": "<img src=\"https://flagcdn.com/20x15/fr.png\" srcset=\"https://flagcdn.com/40x30/fr.png 2x, https://flagcdn.com/60x45/fr.png 3x\" width=\"20\" height=\"15\" alt=\"France\">"
+        },
+        {
+            "fr": "\"Hello there!\"",
+            "en": "\"Hello there!\""
+        },
+        {
+            "fr": "Je suis <span class=\"greenText\">Charles</span>, Concepteur Développeur d'Applications <span class=\"greenText\">(CDA)</span> depuis 2023, travaillant en <span class=\"greenText\">Région Parisienne</span> ou à distance. <br> N’hésitez pas à me contacter pour parler de vos projets !",
+            "en": "I am <span class=\"greenText\">Charles</span>, Software Engineer <span class=\"greenText\">(Design & Development)</span> graduating in 2023, based in the <span class=\"greenText\">Paris Region</span> and available for remote work. <br> Let's chat and imagine your projects together below!"
+        },
+        {
+            "fr": "Faites défiler",
+            "en": "Scroll down"
+        },
+        {
+            "fr": "Projets",
+            "en": "Projects"
+        },
+        {
+            "fr": "Voir plus",
+            "en": "See more"
+        },
+        {
+            "fr": "À&nbsp;propos",
+            "en": "About"
+        },
+        {
+            "fr": "DERNIÈRE EXPERIENCE PROFESSIONNELLE",
+            "en": "PREVIOUS JOB EXPERIENCE"
+        },
+        {
+            "fr": "Opérateur du Son",
+            "en": "Sound Engineer"
+        },
+        {
+            "fr": "Keywords Studios France - CDI - 2019/2022",
+            "en": "Keywords Studios France - Permanent Contract - 2019/2022"
+        },
+        {
+            "fr": "DERNIÈRE FORMATION",
+            "en": "PREVIOUS EDUCATIONAL TRAINING"
+        },
+        {
+            "fr": "Concepteur Développeur d'Applications",
+            "en": "Software Engineer"
+        },
+        {
+            "fr": "AFPA Paris - 2022/2023",
+            "en": "AFPA Paris - 2022/2023"
+        },
+        {
+            "fr": "COMPÉTENCES",
+            "en": "SKILLS"
+        },
+        {
+            "fr": "mais aussi :",
+            "en": "and also:"
+        },
+        {
+            "fr": "Programmation Orientée Objets, Swing, jQuery, Ajax, SpringBoot, conduite de Tests Unitaires, capable d'effectuer du Test Driven Development (TDD)...",
+            "en": "Object-Oriented Programming, Swing, jQuery, Ajax, SpringBoot, Unit Testing, Test Driven Development (TDD) capable..."
+        },
+        {
+            "fr": "MOBILITÉ GÉOGRAPHIQUE",
+            "en": "PROFESSIONAL MOBILITY"
+        },
+        {
+            "fr": "Île-de-France - Permis A et B",
+            "en": "Paris Region - Motorcycle & Driver's Licence"
+        },
+        {
+            "fr": "Télécharger mon CV",
+            "en": "Download my resume"
+        },
+        {
+            "fr": "Contact",
+            "en": "Contact"
+        },
+        {
+            "fr": "Une question ? Un projet à développer ? Une opportunité professionnelle à proposer ? Utilisez le formulaire ci-dessous pour que l'on démarre une conversation ensemble, et je vous répondrai sous peu !",
+            "en": "You have a question? An idea for a project? A job offer to discuss? Use the contact form below and let's start a conversation, I will get back to you shortly!"
+        },
+        {
+            "fr": "Nom*",
+            "en": "Surname*"
+        },
+        {
+            "fr": "Prénom*",
+            "en": "Forename*"
+        },
+        {
+            "fr": "Email*",
+            "en": "Email*"
+        },
+        {
+            "fr": "Téléphone",
+            "en": "Phone"
+        },
+        {
+            "fr": "Société",
+            "en": "Company"
+        },
+        {
+            "fr": "Objet",
+            "en": "Subject"
+        },
+        {
+            "fr": "Message*",
+            "en": "Message*"
+        },
+        {
+            "fr": "50 caractères minimum/500 caractères maximum (",
+            "en": "50 characters minimum/500 characters maximum ("
+        },
+        {
+            "fr": "Envoyer",
+            "en": "Send"
+        },
+        {
+            "fr": "Domicilié à Eaubonne",
+            "en": "Living in Eaubonne"
+        },
+        {
+            "fr": "Retour en haut",
+            "en": "Back to top"
+        }
+    ]
+}
