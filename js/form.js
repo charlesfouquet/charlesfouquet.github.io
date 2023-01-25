@@ -1,14 +1,17 @@
 // ========================= PARTIE CONTACT / FORMULAIRE ===========================
 
+// >>>>>>>>> DECLARATION REGEX GLOBALES
+var regExEmail = /^\w+([.-]?\w+)@\w+([.-]?\w+)\.(\w{2,3})$/;
+var regExMessageLength = /^.{50,500}$/s;
+
 // >>>>>>>>> VERIFICATION LIVE DU FORMULAIRE SUR LES CHAMPS REQUIS
 var inputsList = $(".fieldBox");
 inputsList.each(function(){
     $(this).on("keyup", function () {
-        $(".submitButton").addClass("notOK")
         formCheck(event);
+        validateForm();
     })
 });
-
 
 function formCheck(event) {
     event.preventDefault()
@@ -26,8 +29,6 @@ function formCheck(event) {
         contents[indexContent] = $(this).val();
         indexContent++;
     });
-
-    var regExEmail = /^\w+([.-]?\w+)@\w+([.-]?\w+)\.(\w{2,3})$/;
 
     let indexIncorrect = 0;
     contents.forEach(element => {
@@ -109,7 +110,6 @@ function emptyCheck(event) {
     } else {
         document.querySelector(".emptyAlert").classList.remove("emptyAlertActive", "incorrectText");
     }
-    var regExMessageLength = /.{50,500}/;
     var messageContent = document.getElementById("message").value;
     var messageLabel = document.getElementById("messageDiv").previousElementSibling;
     if (regExMessageLength.test(messageContent) == false) {
@@ -123,7 +123,11 @@ function emptyCheck(event) {
 }
 
 // >>>>>>>>> VERIFICATION DE LA PRESENCE ET DE LA LONGUEUR DU MESSAGE
-document.getElementById("message").onkeyup = messageCheck;
+$("#message").on("keyup", function () {
+    messageCheck(event);
+    validateForm();
+});
+
 function messageCheck(event) {
     event.preventDefault()
 
@@ -145,4 +149,30 @@ function messageCheck(event) {
         messageBox.classList.remove("incorrectInput");
         messageLabel.classList.remove("incorrectText");
     }
+}
+
+// >>>>>>>>> ACTIVATION DU FORMULAIRE SI PAS D'ERREURS
+function validateForm() {
+    var errorsCounter = 0;
+    inputsList.each(function(){
+        if ($(this).val() == "") {
+            errorsCounter++;
+        } else if (($(this).val() != "") && ($(this).attr("id") == "email")) {
+            if (regExEmail.test($(this).val()) == false) {
+                errorsCounter++;
+            };
+        };
+    });
+    if ($("#message").val() != "") {
+        if (regExMessageLength.test(($("#message")).val()) == false) {
+            errorsCounter++;
+        }
+    } else if ($("#message").val() == "") {
+        errorsCounter++;
+    };
+    if (errorsCounter > 0) {
+        $(".submitButton").addClass("notOK");
+    } else if (errorsCounter == 0) {
+        $(".submitButton").removeClass("notOK");
+    };
 }

@@ -202,29 +202,29 @@
         <div class="widthContainer">
             <div class="contactHero">
                 <div>Une question ? Un projet à développer ? Une opportunité professionnelle à proposer ? Utilisez le formulaire ci-dessous pour que l'on démarre une conversation ensemble, et je vous répondrai sous peu !</div>
-            </div>    
+            </div>
             <div class="widthContainer">
                 <div id="contactFlex">
                     <div id="contactFlexLeft" class="middleLayer">
-                        <form id="formGrid" action="post">
+                        <form id="formGrid" target="_blank" action="https://formsubmit.co/200f07926f04121933999b22e7f3a7df" method="POST">
                             <label for="name" class="attributeFRName">Nom*</label>
-                            <input type="text" id="name" class="fieldBox" placeholder="Nom">
+                            <input type="text" id="name" name="Nom" class="fieldBox" placeholder="Nom">
                             <label for="firstName" class="attributeFRName">Prénom*</label>
-                            <input type="text" id="firstName" class="fieldBox" placeholder="Prénom">
+                            <input type="text" id="firstName" name="Prénom" class="fieldBox" placeholder="Prénom">
                             <label for="email" class="attributeFRName">Email*</label>
-                            <input type="email" id="email" class="formSpan fieldBox" placeholder="email@domain.com">
+                            <input type="email" id="email" name="Email" class="formSpan fieldBox" placeholder="email@domain.com">
                             <label for="phone" class="attributeFRName">Téléphone</label>
-                            <input type="tel" id="phone" placeholder="0000000000" pattern="[0-9]10" maxlength="13">
+                            <input type="tel" id="phone" name="Téléphone" placeholder="0000000000" pattern="[0-9]{10}" maxlength="13">
                             <label for="company" class="attributeFRName">Société</label>
-                            <input type="text" id="company">
+                            <input type="text" id="company" name="Société">
                             <label for="subject" class="attributeFRName">Objet</label>
-                            <input type="text" id="subject" class="formSpan" wrap>
+                            <input type="text" id="subject" name="Objet" class="formSpan" wrap>
                             <label for="message">Message*</label>
                             <div id="messageDiv" class="formSpan">
-                                <textarea id="message" rows="10" cols="5" maxlength="500"></textarea>
+                                <textarea id="message" name="Message" rows="10" cols="5" maxlength="500"></textarea>
                                 <div id="messageLengthCounter">50 caractères minimum/500 caractères maximum (<span id="messageLength">0</span>/500)</div>
                             </div>
-                            <button type="submit" class="submitButton button">Envoyer</button>
+                            <button type="submit" class="submitButton button notOK">Envoyer</button>
                             <div></div>
                             <div class="formSpan alertsRight">
                                 <div class="emptyAlert"><span id="emptyAlert1">Le champ </span><em><span id="emptyAlert2">?</span></em><span id="emptyAlert3"> est vide</span></div>
