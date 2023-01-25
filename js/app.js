@@ -84,9 +84,11 @@ $("#translator").on("click", function() {
   if ($("#translator").children("img").attr("alt") == "United Kingdom") {
     var newLocale = "en";
     $("#centerDownload").children("a").attr("href", "files/RESUME_FOUQUET.pdf");
+    $("#centerDownload").children("img").attr("src", "img/resume_img.jpg");
   } else if ($("#translator").children("img").attr("alt") == "France") {
     var newLocale = "fr";
     $("#centerDownload").children("a").attr("href", "files/CV_FOUQUET.pdf");
+    $("#centerDownload").children("img").attr("src", "img/cv_img.jpg");
   }
   $.ajax({
     url:"ajax/website.json",
