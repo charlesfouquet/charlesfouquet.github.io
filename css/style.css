@@ -144,6 +144,10 @@ nav ul li a#contactButton:hover::before {
     width: 0%;
 }
 
+#translator {
+    cursor: pointer;
+}
+
 #home {
     background-image: url(../img/hero_dallE_BW.png);
     background-size: cover;
@@ -256,13 +260,21 @@ h2 {
     background-color: rgb(103, 164, 51);
 }
 
-#projectsCards {
+.projectsCards {
     margin-top: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+}
+
+.otherProjects {
+    margin-top: 25px;
+    justify-content: space-evenly;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
 }
 
 .pCard {
@@ -323,8 +335,16 @@ h2 {
 .cardTitle {
     font-size: 150%;
     font-weight: 800;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cardTitle .button {
+    display: block;
+    font-size: initial;
+    padding: 2px;
+    width: 100px;
+    margin: auto;
 }
 
 .cardDescription {
@@ -332,10 +352,35 @@ h2 {
     flex-grow: 2;
 }
 
-.cardDescription p {
+.vertAl {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.vertAl div {
+    margin-bottom: 10px;
+}
+
+.fa-arrow-up-right-from-square {
+    margin-left: 10px;
+}
+
+.cardTitle ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+.cardTitle ul li {
+    display: flex;
+}
+
+.cardTitle img {
+    width: 30px;
 }
 
 .loadMore {
@@ -753,6 +798,13 @@ h2 {
         width: 40%;
         height: unset;
         margin: 10px 0;
+        padding-bottom: 8px;
+    }
+    
+    .vertAl div {
+        margin-top: 2px;
+        margin-bottom: 0;
+        font-size: 90%;
     }
 
     #aboutFlex {
@@ -1136,24 +1188,35 @@ h2 {
         font-size: 100%;
     }
 
-    #projectsCards {
+    .projectsCards {
+        margin-top: 150px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: center;
-        margin-top: 150px;
+    }
+
+    .projectCards2 {
+    }
+    
+    .otherProjects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 5px;
     }
 
     .pCard {
         width: 80%;
     }
 
-    .cardDescription p {
+    .cardTitle {
+        margin-bottom: 5px;
+    }
+
+    .cardDescription {
         display: none;
-        /* position: unset;
-        top: unset;
-        transform: unset;
-        font-size: 1rem; */
     }
     
     h1 {

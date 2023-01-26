@@ -1,0 +1,94 @@
+{
+    "projects":[
+        {
+            "image": "/img/projects/portfolio.png",
+            "link": "https://github.com/charlesfouquet/charlesfouquet.github.io",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/aos.png\" alt=\"Animate On Scroll Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
+            "fr": {
+                "category": "Site web",
+                "title": "Portfolio - CDA",
+                "description": "<div class=\"vertAl\"><div>Portfolio de Concepteur Développeur d'Applications, vous le consultez actuellement</div></div>"
+            },
+            "en": {
+                "category": "Website",
+                "title": "Portfolio - CDA",
+                "description": "<div class=\"vertAl\"><div>Software Engineer Portfolio, you currently are browsing it</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/ecom1.png",
+            "link": "https://github.com/charlesfouquet/ECOM-1",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen - Front + JS",
+                "title": "E-commerce 1",
+                "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
+            },
+            "en": {
+                "category": "Test - Front + JS",
+                "title": "E-commerce 1",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/ecfFrontEnd.png",
+            "link": "https://github.com/charlesfouquet/ECF-Front-End",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen - Front End",
+                "title": "ECF-Front End",
+                "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end. L'objectif était de calquer le front-end d'un ecommerce généré par l'enseignant.</div></div>"
+            },
+            "en": {
+                "category": "Test - Front End",
+                "title": "ECF-Front End",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end course. The goal was to replicate the front-end of an eShop created by the teacher.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/ecfSql.png",
+            "link": "https://github.com/charlesfouquet/ECF-SQL",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen - SQL",
+                "title": "ECF-SQL",
+                "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
+            },
+            "en": {
+                "category": "Test - SQL",
+                "title": "ECF-SQL",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/javase.png",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "fr": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            },
+            "en": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/formulaire.png",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
+            "fr": {
+                "category": "Training",
+                "title": "MISC-Formulaire",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            },
+            "en": {
+                "category": "Training",
+                "title": "MISC-Formulaire",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            }
+        }
+    ]
+}

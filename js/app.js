@@ -5,103 +5,87 @@ AOS.init();
 // >>>>>>>>> DISPARITION DU NAV BURGER LORS D'UN CLIC N'IMPORTE OU
 // >>>>>>>>> ET ANIMATION DU BOUTON BURGER EN FONCTION
 $(document).on("click", function () {
-  if ($(".burgerBtn").hasClass("active")) {
-    $(".burgerBtn").toggleClass("active not-active");
-  }
-  if ($("nav ul").hasClass("navClicked")) {
-    $("nav ul").toggleClass("navClicked");
-  }
-})
+    if ($(".burgerBtn").hasClass("active")) {
+        $(".burgerBtn").toggleClass("active not-active");
+    };
+    if ($("nav ul").hasClass("navClicked")) {
+        $("nav ul").toggleClass("navClicked");
+    };
+});
 
 // >>>>>>>>> AFFICHAGE DU NAV BURGER LORS DU CLIC SUR LE BOUTON BURGER
 // >>>>>>>>> ET ANIMATION DU BOUTON BURGER EN FONCTION
 $(".burgerBtn").on("click", function(e) {
-  e.stopPropagation();
-  $(this).toggleClass("active not-active");
-  $("nav ul").toggleClass("navClicked");
+    e.stopPropagation();
+    $(this).toggleClass("active not-active");
+    $("nav ul").toggleClass("navClicked");
 });
 
 // >>>>>>>>> CHANGEMENT MISE EN FORME HEADER ET NAV SUR SCROLL
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 150) {
-    $("header").css("background-color","white");
-    if ($(this).width() < 770) {
-      $("nav ul").addClass("navClickedScrolled");
-    }
-  } 
-  if ($(this).scrollTop() < 150) {
-    $("header").css("background-color","unset");
-    $("nav ul").removeClass("navClickedScrolled");
-  } 
+    if ($(this).scrollTop() > 150) {
+        $("header").css("background-color","white");
+        if ($(this).width() < 770) {
+            $("nav ul").addClass("navClickedScrolled");
+        };
+    };
+    if ($(this).scrollTop() < 150) {
+        $("header").css("background-color","unset");
+        $("nav ul").removeClass("navClickedScrolled");
+    };
 });
-
-// >>>>>>>>> CHANGEMENT MISE EN FORME HERO ET LIEN NAV CONTACT LORS DU CHARGEMENT
-function cssCLY() {
-  if ($(this).width() > 770) {
-    $("#contactLink").addClass("button");
-  } 
-};
-
-function cssCLN() {
-  if ($(this).width() < 770) {
-    $("#contactLink").removeClass("button");
-  } 
-};
-
-function cssHeroY() {
-  if ($(this).height() < 500) {
-    $("#helloThere").addClass("shortVP");
-    $(".heroText").addClass("shortVP");
-    $(".scroll").addClass("shortVP");
-  }
-};
-
-function cssHeroN() {
-  if ($(this).height() > 500) {
-    $("#helloThere").removeClass("shortVP");
-    $(".heroText").removeClass("shortVP");
-    $(".scroll").removeClass("shortVP");
-  }
-};
-
-$(window).on("load", function () {
-  cssCLY();
-  cssCLN();
-  cssHeroY();
-  cssHeroN();
-})
 
 // >>>>>>>>> CHANGEMENT MISE EN FORME HERO ET LIEN NAV CONTACT LORS DU RESIZE 
 $(window).on("resize", function () {
-  cssCLY();
-  cssCLN();
-  cssHeroY();
-  cssHeroN();
-})
+    cssCLY();
+    cssCLN();
+    cssHeroY();
+    cssHeroN();
+});
 
 // >>>>>>>>> TRADUCTION DU SITE
 $("#translator").on("click", function() {
-  if ($("#translator").children("img").attr("alt") == "United Kingdom") {
-    var newLocale = "en";
-    $("#centerDownload").children("a").attr("href", "files/RESUME_FOUQUET.pdf");
-    $("#centerDownload").children("img").attr("src", "img/resume_img.jpg");
-  } else if ($("#translator").children("img").attr("alt") == "France") {
-    var newLocale = "fr";
-    $("#centerDownload").children("a").attr("href", "files/CV_FOUQUET.pdf");
-    $("#centerDownload").children("img").attr("src", "img/cv_img.jpg");
-  }
-  $.ajax({
-    url:"ajax/website.json",
-    dataType:"json",
+    if ($("#translator").children("img").attr("alt") == "United Kingdom") {
+        var newLocale = "en";
+        $("#centerDownload").children("a").attr("href", "files/RESUME_FOUQUET.pdf");
+        $("#centerDownload").children("img").attr("src", "img/resume_img.jpg");
+    } else if ($("#translator").children("img").attr("alt") == "France") {
+        var newLocale = "fr";
+        $("#centerDownload").children("a").attr("href", "files/CV_FOUQUET.pdf");
+        $("#centerDownload").children("img").attr("src", "img/cv_img.jpg");
+    };
+    $.ajax({
+        url:"ajax/website.json",
+        dataType:"json",
 
-    
-    success:function(data){
-      for (let index = 0; index < data.website.length; index++) {
-        $(".txt"+(index+1)).html((data.website[index])[newLocale]);
-      }
-    },
-    error:function(xhr, status){
-      alert(xhr.status);
-    }
-  });
+        success:function(data){
+            for (let index = 0; index < data.website.length; index++) {
+            $(".txt"+(index+1)).html((data.website[index])[newLocale]);
+            };
+        },
+        error:function(xhr, status){
+            alert(xhr.status);
+        }
+    });
 });
+
+$(".loadMore").on("click", function () {
+    for (let index = 0; index < $(".otherProjects").length; index++) {
+        const element = $(".otherProjects")[index];
+        if (element.style.maxHeight) {
+            element.style.maxHeight = null;
+            if ($("#translator").children("img").attr("alt") == "United Kingdom") {
+                $(".loadMore").html("Voir plus");
+            } else if ($("#translator").children("img").attr("alt") == "France") {
+                $(".loadMore").html("See more");
+            };
+        } else {
+            element.style.maxHeight = element.scrollHeight + "px";
+            if ($("#translator").children("img").attr("alt") == "United Kingdom") {
+                $(".loadMore").html("Voir moins");
+            } else if ($("#translator").children("img").attr("alt") == "France") {
+                $(".loadMore").html("See less");
+            };
+        };
+    }
+})
