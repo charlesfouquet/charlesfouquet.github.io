@@ -8,7 +8,7 @@ function loadProjects() {
         success:function(data){
             for (let index = 0; index < data.projects.length; index++) {
                 if (index > 3) {
-                    $(".otherProjects").append("<div class=\"pCard project"+(index+1)+"\"><div class=\"pCardContent\"><img src=\"\" alt=\"Image Projet"+(index+1)+"\"><em></em><p class=\"cardTitle\"></p><div class=\"cardDescription\"></div></div></div>");
+                    $(".pC2").append("<div class=\"pCard project"+(index+1)+"\"><div class=\"pCardContent\"><img src=\"\" alt=\"Image Projet"+(index+1)+"\"><em></em><p class=\"cardTitle\"></p><div class=\"cardDescription\"></div></div></div>");
                 };
                 $(".project"+(index+1)).children("div").children("img").attr("src", (data.projects[index]).image);
                 $(".project"+(index+1)).children("div").children("em").html((data.projects[index]).fr.category);
