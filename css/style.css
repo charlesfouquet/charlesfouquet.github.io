@@ -1062,6 +1062,10 @@ h2 {
         transform-origin: 100% 100%;
         z-index: 1;
     }
+
+    #firstHead {
+        margin-top: 150px;
+    }
     
     .skillButton {
         display: flex;
