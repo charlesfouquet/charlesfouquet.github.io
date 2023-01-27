@@ -60,13 +60,47 @@ $("#translator").on("click", function() {
 
         success:function(data){
             for (let index = 0; index < data.website.length; index++) {
-            $(".txt"+(index+1)).html((data.website[index])[newLocale]);
+                $(".txt"+(index+1)).html((data.website[index])[newLocale]);
             };
         },
         error:function(xhr, status){
             alert(xhr.status);
         }
     });
+    $.ajax({
+        url:"ajax/projects.json",
+        dataType:"json",
+
+        success:function(data){
+            if (newLocale == "en") {
+                $(".openLink").html("Open<i class=\"fa-solid fa-arrow-up-right-from-square\"></i>")
+            } else if (newLocale == "fr") {
+                $(".openLink").html("Ouvrir<i class=\"fa-solid fa-arrow-up-right-from-square\"></i>")
+            }
+            for (let index = 0; index < data.projects.length; index++) {
+                var cursorProject = (data.projects[index])[newLocale];
+                $(".project"+(index+1)).children("div").children("em").html(cursorProject.category);
+                $(".project"+(index+1)).children("div").children("div").html(cursorProject.description);
+            };
+        },
+        error:function(xhr, status){
+            alert(xhr.status);
+        }
+    });
+    loadMoreButton = $(".loadMore").html();
+    if (newLocale == "en") {
+        if (loadMoreButton == "Voir plus") {
+            $(".loadMore").html("See more");
+        } else if (loadMoreButton == "Voir moins"){
+            $(".loadMore").html("See less");
+        }
+    } else if (newLocale == "fr") {
+        if (loadMoreButton == "See more") {
+            $(".loadMore").html("Voir plus");
+        } else if (loadMoreButton == "See less"){
+            $(".loadMore").html("Voir moins");
+        }
+    };
 });
 
 $(".loadMore").on("click", function () {
@@ -79,6 +113,10 @@ $(".loadMore").on("click", function () {
             } else if ($("#translator").children("img").attr("alt") == "France") {
                 $(".loadMore").html("See more");
             };
+            $(".otherProjects").position();
+            scrollToPos = $(".otherProjects").position().top;
+            console.log(Math.round(scrollToPos));
+            window.scrollTo(0, scrollToPos+150);
         } else {
             element.style.maxHeight = element.scrollHeight + "px";
             if ($("#translator").children("img").attr("alt") == "United Kingdom") {
@@ -88,4 +126,4 @@ $(".loadMore").on("click", function () {
             };
         };
     }
-})
+});

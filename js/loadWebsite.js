@@ -15,7 +15,7 @@ function loadProjects() {
                 $(".project"+(index+1)).children("div").children("p").html((data.projects[index]).fr.title);
                 $(".project"+(index+1)).children("div").children("div").html((data.projects[index]).fr.description);
                 $(".project"+(index+1)).children("div").children("p").append((data.projects[index]).techstack);
-                $(".project"+(index+1)).children("div").children("p").append("<a href="+(data.projects[index]).link+" target=\"_blank\" class=\"button middleLayer\">Ouvrir<i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a>");
+                $(".project"+(index+1)).children("div").children("p").append("<a href="+(data.projects[index]).link+" target=\"_blank\" class=\"button middleLayer openLink\">Ouvrir<i class=\"fa-solid fa-arrow-up-right-from-square\"></i></a>");
             };
         },
         error:function(xhr, status){
