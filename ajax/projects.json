@@ -32,6 +32,51 @@
         },
         {
             "image": "/img/projects/placeholder.png",
+            "link": "https://github.com/charlesfouquet/ECF-SQL",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen - SQL",
+                "title": "ECF-SQL",
+                "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
+            },
+            "en": {
+                "category": "Test - SQL",
+                "title": "ECF-SQL",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/placeholder.png",
+            "link": "https://github.com/charlesfouquet",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/lua.png\" alt=\"Lua Logo\"></li></ul>",
+            "fr": {
+                "category": "Outil pour Reaper",
+                "title": "Trieur de fichiers",
+                "description": "<div class=\"vertAl\"><div>Script pour Reaper permettant en un clic de récupérer les informations nécessaires à la création d'une arborescence d'export et au renommage des fichiers.</div></div>"
+            },
+            "en": {
+                "category": "Reaper Custom Tool",
+                "title": "Trieur de fichiers",
+                "description": "<div class=\"vertAl\"><div>Reaper script enabling the creation of a context-aware filepath and the automatic renaming of the files before export in a single click.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/placeholder.png",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "fr": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            },
+            "en": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/placeholder.png",
             "link": "https://github.com/charlesfouquet/ECF-Front-End",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li></ul>",
             "fr": {
@@ -47,17 +92,17 @@
         },
         {
             "image": "/img/projects/placeholder.png",
-            "link": "https://github.com/charlesfouquet/ECF-SQL",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
             "fr": {
-                "category": "Examen - SQL",
-                "title": "ECF-SQL",
-                "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
+                "category": "Training",
+                "title": "MISC-Formulaire",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
             },
             "en": {
-                "category": "Test - SQL",
-                "title": "ECF-SQL",
-                "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
+                "category": "Training",
+                "title": "MISC-Form",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
             }
         },
         {
@@ -78,15 +123,30 @@
         {
             "image": "/img/projects/placeholder.png",
             "link": "",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
                 "category": "Training",
-                "title": "MISC-Formulaire",
+                "title": "MISC-JavaSE",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-Form",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/placeholder.png",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "fr": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            },
+            "en": {
+                "category": "Training",
+                "title": "MISC-JavaSE",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             }
         }
