@@ -47,7 +47,7 @@
         },
         {
             "image": "/img/projects/placeholder.png",
-            "link": "",
+            "link": "https://github.com/charlesfouquet/MISC-LUA",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/lua.png\" alt=\"Lua Logo\"></li></ul>",
             "fr": {
                 "category": "Outil pour Reaper",
