@@ -20,12 +20,12 @@
             "link": "https://github.com/charlesfouquet/ECOM-1",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
             "fr": {
-                "category": "Examen - Front + JS",
+                "category": "Examen en Cours de Formation (ECF)",
                 "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
             },
             "en": {
-                "category": "Test - Front + JS",
+                "category": "Mid-Program Assessment",
                 "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
             }
