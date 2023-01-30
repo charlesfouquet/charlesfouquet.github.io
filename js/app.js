@@ -79,6 +79,7 @@ $("#translator").on("click", function() {
             }
             for (let index = 0; index < data.projects.length; index++) {
                 var cursorProject = (data.projects[index])[newLocale];
+                $(".project"+(index+1)).children("div").children("p").children("p").html(cursorProject.title);
                 $(".project"+(index+1)).children("div").children("em").html(cursorProject.category);
                 $(".project"+(index+1)).children("div").children("div").html(cursorProject.description);
             };

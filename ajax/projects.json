@@ -21,12 +21,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
             "fr": {
                 "category": "Examen - Front + JS",
-                "title": "E-commerce 1",
+                "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
             },
             "en": {
                 "category": "Test - Front + JS",
-                "title": "E-commerce 1",
+                "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
             }
         },
@@ -35,13 +35,13 @@
             "link": "https://github.com/charlesfouquet/ECF-SQL",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
             "fr": {
-                "category": "Examen - SQL",
-                "title": "ECF-SQL",
+                "category": "Examen en Cours de Formation (ECF)",
+                "title": "SQL",
                 "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
             },
             "en": {
-                "category": "Test - SQL",
-                "title": "ECF-SQL",
+                "category": "Mid-Program Assessment",
+                "title": "SQL",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
             }
         },
@@ -66,12 +66,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
                 "category": "Entraînement",
-                "title": "MISC-JavaSE",
+                "title": "Java SE",
                 "description": "<div class=\"vertAl\"><div>Compilation d'exercices sur Java Standard Edition. Différents cas sont traités dans ce dépôt pour aborder différents concepts de la POO.</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-JavaSE",
+                "title": "Java SE",
                 "description": "<div class=\"vertAl\"><div>A few exercises using Java Standard Edition. Several scenarios are considered in order to tackle the basic concepts of OOP.</div></div>"
             }
         },
@@ -80,13 +80,13 @@
             "link": "https://github.com/charlesfouquet/ECF-Front-End",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li></ul>",
             "fr": {
-                "category": "Examen - Front End",
-                "title": "ECF-Front End",
+                "category": "Examen en Cours de Formation (ECF)",
+                "title": "Front End",
                 "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end. L'objectif était de calquer le front-end d'un ecommerce généré par l'enseignant.</div></div>"
             },
             "en": {
-                "category": "Test - Front End",
-                "title": "ECF-Front End",
+                "category": "Mid-Program Assessment",
+                "title": "Front End",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end course. The goal was to replicate the front-end of an eShop created by the teacher.</div></div>"
             }
         },
@@ -96,12 +96,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
                 "category": "Entraînement",
-                "title": "MISC-Galerie",
+                "title": "Galerie photo",
                 "description": "<div class=\"vertAl\"><div>Galerie photo, avec une visionneuse grand format et des rangées de miniatures, permettant de passer de l'une à l'autre tout en changeant la légende de la visionneuse.</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-Gallery",
+                "title": "Photo gallery",
                 "description": "<div class=\"vertAl\"><div>Photo gallery, with a full size viewer and rows of thumbnails, allowing to switch images and captions back and forth.</div></div>"
             }
         },
@@ -111,12 +111,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
             "fr": {
                 "category": "Entraînement",
-                "title": "MISC-Formulaire",
+                "title": "Formulaire",
                 "description": "<div class=\"vertAl\"><div>Le formulaire vérifie la longueur des champs, le format du mail et du téléphone, les conditions requises pour le mot de passe et la longueur du message attaché au formulaire, le tout lors de la saisie par l'utilisateur ainsi que lors de l'envoi du formulaire.</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-Form",
+                "title": "Sign-up form",
                 "description": "<div class=\"vertAl\"><div>This form checks for inputs values length, email and phone formats, password requirements and attached message length, while the user is typing as well as when submitting.</div></div>"
             }
         },
@@ -126,12 +126,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
                 "category": "Entraînement",
-                "title": "MISC-Palindrome",
+                "title": "Palindrome",
                 "description": "<div class=\"vertAl\"><div>Formulaire permettant à l'utilisateur de saisir une chaîne de caractères puis de vérifier si celle-ci est un palindrome. Le validateur retourne ensuite le résultat avec une mise en forme différente selon le résultat.</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-Palindrome",
+                "title": "Palindrome",
                 "description": "<div class=\"vertAl\"><div>Form allowing the user to write a string and then checking for the string being a palindrome or not. The layout changes based on the answer.</div></div>"
             }
         },
@@ -141,12 +141,12 @@
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
                 "category": "Entraînement",
-                "title": "MISC-IMC",
+                "title": "Calculateur IMC",
                 "description": "<div class=\"vertAl\"><div>Formulaire permettant de calculer l'IMC d'un utilisateur en fonction des informations saisies, avec gestion des erreurs, des différents résultats possibles et avec intégration d'animations.</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-BMI",
+                "title": "BMI Calculator",
                 "description": "<div class=\"vertAl\"><div>Form allowing the calculation of a user's BMI based on the data submitted, with handling of errors, different output cases and animations integration.</div></div>"
             }
         }
