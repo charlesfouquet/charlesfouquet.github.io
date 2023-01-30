@@ -106,12 +106,12 @@ $("#translator").on("click", function() {
             $("#emptyAlert1").html("");
             $("#emptyAlert2").html("");
             $("#emptyAlert3").html("");
-            $("#emptyAlert4").html("Please click send to translate the error messages");
+            $("#emptyAlert4").html("Please click \"Send\" to translate the error messages");
         } else if ($("#translator").children("img").attr("alt") == "France") {
             $("#emptyAlert1").html("");
             $("#emptyAlert2").html("");
             $("#emptyAlert3").html("");
-            $("#emptyAlert4").html("Veuillez cliquer sur Envoyer pour traduire les erreurs");
+            $("#emptyAlert4").html("Veuillez cliquer sur \"Envoyer\" pour traduire les erreurs");
         };
     };
 });
