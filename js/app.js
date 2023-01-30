@@ -118,12 +118,12 @@ $(".loadMore").on("click", function () {
         } else {
             scrollToPos = $(".otherProjects").position().top;
             element.style.maxHeight = element.scrollHeight + "px";
-            window.scrollTo(0, scrollToPos+150);
             if ($("#translator").children("img").attr("alt") == "United Kingdom") {
                 $(".loadMore").html("Voir moins");
             } else if ($("#translator").children("img").attr("alt") == "France") {
                 $(".loadMore").html("See less");
             };
+            window.scrollTo(0, scrollToPos+150);
         };
     }
 });

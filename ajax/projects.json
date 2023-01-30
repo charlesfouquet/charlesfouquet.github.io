@@ -47,7 +47,7 @@
         },
         {
             "image": "/img/projects/placeholder.png",
-            "link": "https://github.com/charlesfouquet",
+            "link": "",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/lua.png\" alt=\"Lua Logo\"></li></ul>",
             "fr": {
                 "category": "Outil pour Reaper",
@@ -57,22 +57,22 @@
             "en": {
                 "category": "Reaper Custom Tool",
                 "title": "File sorter",
-                "description": "<div class=\"vertAl\"><div>Reaper script enabling the creation of a context-aware filepath and the automatic renaming of the files before export in a single click.</div></div>"
+                "description": "<div class=\"vertAl\"><div>Reaper script enabling the creation of a session context-aware filepath and the automatic renaming of the files before export in a single click.</div></div>"
             }
         },
         {
             "image": "/img/projects/javase.png",
-            "link": "",
+            "link": "https://github.com/charlesfouquet/MISC-JavaSE",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
-                "category": "Training",
+                "category": "Entraînement",
                 "title": "MISC-JavaSE",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Compilation d'exercices sur Java Standard Edition. Différents cas sont traités dans ce dépôt pour aborder différents concepts de la POO.</div></div>"
             },
             "en": {
                 "category": "Training",
                 "title": "MISC-JavaSE",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>A few exercises using Java Standard Edition. Several scenarios are considered in order to tackle the basic concepts of OOP.</div></div>"
             }
         },
         {
@@ -92,62 +92,62 @@
         },
         {
             "image": "/img/projects/galerie.png",
-            "link": "",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "link": "https://github.com/charlesfouquet/MISC-Galerie",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
-                "category": "Training",
+                "category": "Entraînement",
                 "title": "MISC-Galerie",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Galerie photo, avec une visionneuse grand format et des rangées de miniatures, permettant de passer de l'une à l'autre tout en changeant la légende de la visionneuse.</div></div>"
             },
             "en": {
                 "category": "Training",
                 "title": "MISC-Gallery",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Photo gallery, with a full size viewer and rows of thumbnails, allowing to switch images and captions back and forth.</div></div>"
             }
         },
         {
             "image": "/img/projects/formulaire.png",
-            "link": "",
+            "link": "https://github.com/charlesfouquet/MISC-Formulaire",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
             "fr": {
-                "category": "Training",
+                "category": "Entraînement",
                 "title": "MISC-Formulaire",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Le formulaire vérifie la longueur des champs, le format du mail et du téléphone, les conditions requises pour le mot de passe et la longueur du message attaché au formulaire, le tout lors de la saisie par l'utilisateur ainsi que lors de l'envoi du formulaire.</div></div>"
             },
             "en": {
                 "category": "Training",
                 "title": "MISC-Form",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>This form checks for inputs values length, email and phone formats, password requirements and attached message length, while the user is typing as well as when submitting.</div></div>"
             }
         },
         {
             "image": "/img/projects/palindrome.png",
-            "link": "",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "link": "https://github.com/charlesfouquet/MISC-Palindrome",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
-                "category": "Training",
+                "category": "Entraînement",
                 "title": "MISC-Palindrome",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Formulaire permettant à l'utilisateur de saisir une chaîne de caractères puis de vérifier si celle-ci est un palindrome. Le validateur retourne ensuite le résultat avec une mise en forme différente selon le résultat.</div></div>"
             },
             "en": {
                 "category": "Training",
                 "title": "MISC-Palindrome",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Form allowing the user to write a string and then checking for the string being a palindrome or not. The layout changes based on the answer.</div></div>"
             }
         },
         {
             "image": "/img/projects/IMC.png",
-            "link": "",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "link": "https://github.com/charlesfouquet/MISC-IMC",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li></ul>",
             "fr": {
-                "category": "Training",
+                "category": "Entraînement",
                 "title": "MISC-IMC",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Formulaire permettant de calculer l'IMC d'un utilisateur en fonction des informations saisies, avec gestion des erreurs, des différents résultats possibles et avec intégration d'animations.</div></div>"
             },
             "en": {
                 "category": "Training",
                 "title": "MISC-BMI",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+                "description": "<div class=\"vertAl\"><div>Form allowing the calculation of a user's BMI based on the data submitted, with handling of errors, different output cases and animations integration.</div></div>"
             }
         }
     ]
