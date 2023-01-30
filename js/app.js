@@ -113,12 +113,12 @@ $(".loadMore").on("click", function () {
             } else if ($("#translator").children("img").attr("alt") == "France") {
                 $(".loadMore").html("See more");
             };
-            $(".otherProjects").position();
             scrollToPos = $(".otherProjects").position().top;
-            console.log(Math.round(scrollToPos));
             window.scrollTo(0, scrollToPos+150);
         } else {
+            scrollToPos = $(".otherProjects").position().top;
             element.style.maxHeight = element.scrollHeight + "px";
+            window.scrollTo(0, scrollToPos+150);
             if ($("#translator").children("img").attr("alt") == "United Kingdom") {
                 $(".loadMore").html("Voir moins");
             } else if ($("#translator").children("img").attr("alt") == "France") {
