@@ -52,6 +52,7 @@ function formCheck(event) {
 $(".submitButton").each(function(){
     $(this).on("click", function () {
         if (($(this)).hasClass("notOK")) {
+            $(".submitButton").addClass("submittedOnce")
             emptyCheck(event);
         }
     })
@@ -93,20 +94,21 @@ function emptyCheck(event) {
 
     if (indexIncorrectLabels >= 2) {
         document.querySelector(".emptyAlert").classList.add("emptyAlertActive", "incorrectText");
-        document.querySelector("#emptyAlert1").innerHTML = "Les champs ";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? document.querySelector("#emptyAlert1").innerHTML = "Les champs " : document.querySelector("#emptyAlert1").innerHTML = "The fields ";
         const incorrectLabelsList = incorrectLabels.toString().replaceAll(",", ", ");
         const lastIndexILL = incorrectLabelsList.lastIndexOf(",");
-        const replacement = " et";
+        var replacement = "";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? replacement = " et" : replacement = " and";
         const replaced = incorrectLabelsList.substring(0, lastIndexILL)+replacement+incorrectLabelsList.substring(lastIndexILL+1);
 
         document.querySelector("#emptyAlert2").innerHTML = replaced;
         
-        document.querySelector("#emptyAlert3").innerHTML = " sont vides";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? document.querySelector("#emptyAlert3").innerHTML = " sont vides" : document.querySelector("#emptyAlert3").innerHTML = " are empty";
     } else if (indexIncorrectLabels == 1) {
         document.querySelector(".emptyAlert").classList.add("emptyAlertActive", "incorrectText");
-        document.querySelector("#emptyAlert1").innerHTML = "Le champ ";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? document.querySelector("#emptyAlert1").innerHTML = "Le champ " : document.querySelector("#emptyAlert1").innerHTML = "The field ";
         document.querySelector("#emptyAlert2").innerHTML = incorrectLabels.toString();
-        document.querySelector("#emptyAlert3").innerHTML = " est vide";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? document.querySelector("#emptyAlert3").innerHTML = " est vide" : document.querySelector("#emptyAlert3").innerHTML = " is empty";
     } else {
         document.querySelector(".emptyAlert").classList.remove("emptyAlertActive", "incorrectText");
     }
@@ -114,7 +116,7 @@ function emptyCheck(event) {
     var messageLabel = document.getElementById("messageDiv").previousElementSibling;
     if (regExMessageLength.test(messageContent) == false) {
         document.querySelector(".emptyAlertForMessage").classList.add("emptyAlertActive", "incorrectText");
-        document.querySelector("#emptyAlert4").innerHTML = "Le champ <em>Messages</em> n'est pas correctement rempli";
+        ($("#translator").children("img").attr("alt") == "United Kingdom") ? document.querySelector("#emptyAlert4").innerHTML = "Le champ <em>Message</em> n'est pas correctement rempli" : document.querySelector("#emptyAlert4").innerHTML = "The field <em>Message</em> is not filled correctly";
         document.getElementById("message").classList.add("incorrectInput");
         messageLabel.classList.add("incorrectText");
     } else {

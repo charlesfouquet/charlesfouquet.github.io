@@ -101,6 +101,19 @@ $("#translator").on("click", function() {
             $(".loadMore").html("Voir moins");
         }
     };
+    if ($(".submitButton").hasClass("submittedOnce") == true) {
+        if ($("#translator").children("img").attr("alt") == "United Kingdom") {
+            $("#emptyAlert1").html("");
+            $("#emptyAlert2").html("");
+            $("#emptyAlert3").html("");
+            $("#emptyAlert4").html("Please click send to translate the error messages");
+        } else if ($("#translator").children("img").attr("alt") == "France") {
+            $("#emptyAlert1").html("");
+            $("#emptyAlert2").html("");
+            $("#emptyAlert3").html("");
+            $("#emptyAlert4").html("Veuillez cliquer sur Envoyer pour traduire les erreurs");
+        };
+    };
 });
 
 $(".loadMore").on("click", function () {
