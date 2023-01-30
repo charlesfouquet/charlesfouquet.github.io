@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/portfolio.png",
             "link": "https://github.com/charlesfouquet/charlesfouquet.github.io",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/aos.png\" alt=\"Animate On Scroll Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
             "fr": {
@@ -16,7 +16,7 @@
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/ecom1.png",
             "link": "https://github.com/charlesfouquet/ECOM-1",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
             "fr": {
@@ -31,7 +31,7 @@
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/ecfSql.png",
             "link": "https://github.com/charlesfouquet/ECF-SQL",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
             "fr": {
@@ -56,12 +56,12 @@
             },
             "en": {
                 "category": "Reaper Custom Tool",
-                "title": "Trieur de fichiers",
+                "title": "File sorter",
                 "description": "<div class=\"vertAl\"><div>Reaper script enabling the creation of a context-aware filepath and the automatic renaming of the files before export in a single click.</div></div>"
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/javase.png",
             "link": "",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
@@ -76,7 +76,7 @@
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/ecfFrontEnd.png",
             "link": "https://github.com/charlesfouquet/ECF-Front-End",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li></ul>",
             "fr": {
@@ -91,7 +91,22 @@
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/galerie.png",
+            "link": "",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
+            "fr": {
+                "category": "Training",
+                "title": "MISC-Galerie",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            },
+            "en": {
+                "category": "Training",
+                "title": "MISC-Gallery",
+                "description": "<div class=\"vertAl\"><div>Here</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/formulaire.png",
             "link": "",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li></ul>",
             "fr": {
@@ -106,47 +121,32 @@
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/palindrome.png",
             "link": "",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
                 "category": "Training",
-                "title": "MISC-JavaSE",
+                "title": "MISC-Palindrome",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-JavaSE",
+                "title": "MISC-Palindrome",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             }
         },
         {
-            "image": "/img/projects/placeholder.png",
+            "image": "/img/projects/IMC.png",
             "link": "",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
             "fr": {
                 "category": "Training",
-                "title": "MISC-JavaSE",
+                "title": "MISC-IMC",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             },
             "en": {
                 "category": "Training",
-                "title": "MISC-JavaSE",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
-            }
-        },
-        {
-            "image": "/img/projects/placeholder.png",
-            "link": "",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li></ul>",
-            "fr": {
-                "category": "Training",
-                "title": "MISC-JavaSE",
-                "description": "<div class=\"vertAl\"><div>Here</div></div>"
-            },
-            "en": {
-                "category": "Training",
-                "title": "MISC-JavaSE",
+                "title": "MISC-BMI",
                 "description": "<div class=\"vertAl\"><div>Here</div></div>"
             }
         }
