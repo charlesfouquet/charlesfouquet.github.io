@@ -20,7 +20,7 @@
             "link": "https://github.com/charlesfouquet/ECOM-1",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
             "fr": {
-                "category": "Examen en Cours de Formation (ECF)",
+                "category": "Examen en Cours de Formation",
                 "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
             },
@@ -35,7 +35,7 @@
             "link": "https://github.com/charlesfouquet/ECF-SQL",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
             "fr": {
-                "category": "Examen en Cours de Formation (ECF)",
+                "category": "Examen en Cours de Formation",
                 "title": "SQL",
                 "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
             },
@@ -80,7 +80,7 @@
             "link": "https://github.com/charlesfouquet/ECF-Front-End",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li></ul>",
             "fr": {
-                "category": "Examen en Cours de Formation (ECF)",
+                "category": "Examen en Cours de Formation",
                 "title": "Front End",
                 "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end. L'objectif était de calquer le front-end d'un ecommerce généré par l'enseignant.</div></div>"
             },
