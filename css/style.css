@@ -1044,7 +1044,7 @@ h2 {
     }
 
     #helloThere {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .heroText {
@@ -1171,12 +1171,8 @@ h2 {
         }
     }
 
-    #helloThere {
-        font-size: 2.5rem;
-    }
-
     .heroText {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .socialLinks {
@@ -1343,10 +1339,6 @@ h2 {
             bottom: 0;
             transform: rotate(0);
         }
-    }
-
-    #helloThere {
-        font-size: 2rem;
     }
 
     h1 {
