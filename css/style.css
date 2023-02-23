@@ -784,7 +784,7 @@ h2 {
         width: 30vw;
         margin: auto;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .socialLinks2 {
@@ -1176,11 +1176,11 @@ h2 {
     }
 
     .heroText {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .socialLinks {
-        width: 50vw;
+        width: 30vw;
     }
 
     .socialLinks2 {
@@ -1190,8 +1190,8 @@ h2 {
     }
     
     .socialButton {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
     }
 
     .scroll {
