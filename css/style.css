@@ -59,7 +59,7 @@ html {
     display: none;
 }
 
-#logoBold {
+.logoBold {
     font-weight: 900;
     color: rgb(134, 196, 83);
 }
