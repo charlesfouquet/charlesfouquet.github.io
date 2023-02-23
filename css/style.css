@@ -174,7 +174,9 @@ nav ul li a#contactButton:hover::before {
 .heroText {
     font-size: 2.3rem;
     width: 35vw;
-    background-color: rgb(255, 255, 255, 50%);
+    background-color: rgb(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 30px;
     padding: 30px;
 }
@@ -1042,7 +1044,7 @@ h2 {
     }
 
     #helloThere {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .heroText {
@@ -1170,7 +1172,7 @@ h2 {
     }
 
     #helloThere {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .heroText {
