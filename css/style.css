@@ -462,7 +462,7 @@ h2 {
 
 .skillButton img {
     display: inline-block;
-    height: 18%;
+    height: 75%;
     margin-top: 6px;
     margin-right: 10px;
 }
@@ -472,9 +472,9 @@ h2 {
         display: flex;
     }
 
-    .skillButton img {
+    /* .skillButton img {
         height: 75%;
-    }
+    } */
 }
 
 .HTML5 {
