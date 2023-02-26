@@ -16,6 +16,21 @@
             }
         },
         {
+            "image": "/img/projects/ecfBibliotheque.png",
+            "link": "https://github.com/charlesfouquet/ECF-Bibliotheque",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen en Cours de Formation",
+                "title": "Bibliothèque",
+                "description": "<div class=\"vertAl\"><div>Application desktop développée à l'aide de Java SE, Swing et SQL en local. Cette application simule l'utilisation et la gestion d'une bibliothèque.</div></div>"
+            },
+            "en": {
+                "category": "Mid-Program Assessment",
+                "title": "Library",
+                "description": "<div class=\"vertAl\"><div>Desktop application developed using Java SE, Swing and SQL locally. This app allows the usage and management of a fictional library.</div></div>"
+            }
+        },
+        {
             "image": "/img/projects/ecom1.png",
             "link": "https://github.com/charlesfouquet/ECOM-1",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
@@ -28,21 +43,6 @@
                 "category": "Mid-Program Assessment",
                 "title": "E-Commerce 1",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
-            }
-        },
-        {
-            "image": "/img/projects/ecfSql.png",
-            "link": "https://github.com/charlesfouquet/ECF-SQL",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
-            "fr": {
-                "category": "Examen en Cours de Formation",
-                "title": "SQL",
-                "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
-            },
-            "en": {
-                "category": "Mid-Program Assessment",
-                "title": "SQL",
-                "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
             }
         },
         {
@@ -73,6 +73,21 @@
                 "category": "Training",
                 "title": "Java SE",
                 "description": "<div class=\"vertAl\"><div>A few exercises using Java Standard Edition. Several scenarios are considered in order to tackle the basic concepts of OOP.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/ecfSql.png",
+            "link": "https://github.com/charlesfouquet/ECF-SQL",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen en Cours de Formation",
+                "title": "SQL",
+                "description": "<div class=\"vertAl\"><div>Evaluation réalisée en fin de cours sur le SQL. Le script crée une base, des tables, et permet d'effectuer des recherches sur les acheteurs et vendeurs d'une fausse agence immobilière.</div></div>"
+            },
+            "en": {
+                "category": "Mid-Program Assessment",
+                "title": "SQL",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
             }
         },
         {
