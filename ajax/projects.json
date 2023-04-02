@@ -16,6 +16,21 @@
             }
         },
         {
+            "image": "/img/projects/ecfScoreboard.png",
+            "link": "https://github.com/charlesfouquet/ECF-Scoreboard",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li><li><img src=\"img/logos/jee.png\" alt=\"JEE Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen en Cours de Formation",
+                "title": "Tableau de scores",
+                "description": "<div class=\"vertAl\"><div>Application web développée à l'aide de Java EE. Cette application permet de gérer des jeux et des joueurs, ainsi que les matches qui les relient.</div></div>"
+            },
+            "en": {
+                "category": "Mid-Program Assessment",
+                "title": "Scoreboard",
+                "description": "<div class=\"vertAl\"><div>Web application developed using Java EE. This app allows the management of games and players, in addition to the contests that connect them.</div></div>"
+            }
+        },
+        {
             "image": "/img/projects/ecfBibliotheque.png",
             "link": "https://github.com/charlesfouquet/ECF-Bibliotheque",
             "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/java.png\" alt=\"Java Logo\"></li><li><img src=\"img/logos/sql.png\" alt=\"SQL Logo\"></li></ul>",
@@ -28,21 +43,6 @@
                 "category": "Mid-Program Assessment",
                 "title": "Library",
                 "description": "<div class=\"vertAl\"><div>Desktop application developed using Java SE, Swing and SQL locally. This app allows the usage and management of a fictional library.</div></div>"
-            }
-        },
-        {
-            "image": "/img/projects/ecom1.png",
-            "link": "https://github.com/charlesfouquet/ECOM-1",
-            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
-            "fr": {
-                "category": "Examen en Cours de Formation",
-                "title": "E-Commerce 1",
-                "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
-            },
-            "en": {
-                "category": "Mid-Program Assessment",
-                "title": "E-Commerce 1",
-                "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
             }
         },
         {
@@ -88,6 +88,21 @@
                 "category": "Mid-Program Assessment",
                 "title": "SQL",
                 "description": "<div class=\"vertAl\"><div>Test taken after completing the SQL course. The script creates a database, some tables, and allows a fictional estate agency to perform searches regarding buyers and sellers.</div></div>"
+            }
+        },
+        {
+            "image": "/img/projects/ecom1.png",
+            "link": "https://github.com/charlesfouquet/ECOM-1",
+            "techstack": "<ul class=\"techStack\"><li><img src=\"img/logos/html5.png\" alt=\"HTML5 Logo\"></li><li><img src=\"img/logos/css3.png\" alt=\"CSS3 Logo\"></li><li><img src=\"img/logos/bootstrap.png\" alt=\"Bootstrap Logo\"></li><li><img src=\"img/logos/javascript.png\" alt=\"JavaScript Logo\"></li><li><img src=\"img/logos/jquery.png\" alt=\"jQuery Logo\"></li><li><img src=\"img/logos/ajax.png\" alt=\"Ajax Logo\"></li></ul>",
+            "fr": {
+                "category": "Examen en Cours de Formation",
+                "title": "E-Commerce 1",
+                "description": "<div class=\"vertAl\"><div>Exercice réalisé en fin de cours sur le front-end et JavaScript. L'objectif était de calquer le front-end et l'interactivité d'un ecommerce généré par l'enseignant, en respectant des conditions précises.</div></div>"
+            },
+            "en": {
+                "category": "Mid-Program Assessment",
+                "title": "E-Commerce 1",
+                "description": "<div class=\"vertAl\"><div>Test taken after completing the front-end and JavaScript courses. The goal was to replicate the front-end and interactivity of an eShop created by the teacher, while meeting some criteria.</div></div>"
             }
         },
         {
